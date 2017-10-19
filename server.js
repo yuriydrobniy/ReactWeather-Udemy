@@ -1,3 +1,4 @@
+//1
 var express = require('express');
 
 // Create our app. For test
@@ -11,6 +12,8 @@ app.use(function (req, res, next){
     next();
   }
 });
+
+//123
 
 app.use(express.static('public'));
 
